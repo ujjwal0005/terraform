@@ -1,6 +1,6 @@
 # Local .terraform directories
 /.terraform/
-/exercise2/.terraform/
+exercise2/.terraform/
 exercise3/.terraform/
 exercise3/dovekey.pub
 exercise3/dovekey
