@@ -35,9 +35,9 @@ resource "aws_instance" "dove-instance" {
 }
 
 output "PublicIP" {
-  value = aws_instance.dove-inst.public_ip
+  value = aws_instance.dove-instance.public_ip
 }
 
 output "PrivateIP" {
-  value = aws_instance.dove-inst.private_ip
+  value = aws_instance.dove-instance.private_ip
 }
