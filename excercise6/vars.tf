@@ -19,12 +19,12 @@ variable "USER" {
   default = "ec2-user"
 }
 
-variable PUB_KEY {
-    default = "dovekey.pub"
+variable "PUB_KEY" {
+  default = "dovekey.pub"
 }
 
-variable PRIV_KEY {
-    default = "dovekey"
+variable "PRIV_KEY" {
+  default = "dovekey"
 }
 
 variable "AMIS" {
@@ -34,4 +34,8 @@ variable "AMIS" {
     us-east-2 = "ami-067df2907035c28c2"
   }
 
+}
+
+variable MYIP {
+  default = 27.34.65.88/32
 }
