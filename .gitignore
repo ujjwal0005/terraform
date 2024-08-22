@@ -4,6 +4,9 @@ exercise2/.terraform/
 exercise3/.terraform/
 exercise3/dovekey.pub
 exercise3/dovekey
+excercise6/dovekey
+excercise6/dovekey.pub
+excercise6/.terraform/
 # .tfstate files
 *.tfstate
 *.tfstate.*

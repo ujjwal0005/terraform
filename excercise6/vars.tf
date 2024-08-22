@@ -36,6 +36,6 @@ variable "AMIS" {
 
 }
 
-variable MYIP {
+variable "MYIP" {
   default = "27.34.65.88/32"
 }
